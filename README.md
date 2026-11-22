@@ -1,13 +1,3 @@
----
-title: Rujwasco Distribution Intelligence
-emoji: 💧
-colorFrom: blue
-colorTo: cyan
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 # Rujwasco Distribution Intelligence
 
 Rujwasco Distribution Intelligence is a local, full-stack analytical chat application that combines a conversational LLM with deterministic data analysis tools. It uses Groq for model inference, FastAPI as the HTTP and orchestration layer, and the Model Context Protocol (MCP) to expose read-only pandas calculations over a structured, type-described tool interface.

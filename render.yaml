@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: rujwasco-water-distribution
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
+      - key: PYTHON_EXECUTABLE
+        value: python
